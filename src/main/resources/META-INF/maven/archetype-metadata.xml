@@ -11,13 +11,15 @@
         <fileSet>
             <directory>src/test/java</directory>
             <includes>
-                <include>**/*.java</include>
+                <include>com.example.controller.MyController.java</include>
+                <!-- Add more specific test files as needed -->
             </includes>
         </fileSet>
         <fileSet>
             <directory>src/main/resources</directory>
             <includes>
                 <include>*.properties</include>
+                <include>*.yml</include>
             </includes>
         </fileSet>
         <fileSet>
